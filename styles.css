@@ -510,7 +510,45 @@ p{
     }
    }
 
- 
+   
+   
+   @media (max-width: 700px){
+    #hero{
+      display: none;
+    }
+
+    .inicio-img{
+      display: none;
+    }
+
+    #about-us{
+      padding: 50px 140px;
+    }
+
+    .hero-img{
+      display: none;
+    }
+
+    #paquetes{
+      padding: 18px 0;
+    }
+
+    .card-title{
+      margin-right: 91px;
+    }
+
+    .cards-container{
+      flex-direction: column;
+
+    }
+
+    .contact-container{
+      flex-direction: column;
+      gap: 70px;
+    }
+
+
+   }
 
 
   
