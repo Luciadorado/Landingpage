@@ -442,9 +442,27 @@ p{
   }
    /*MEDIA QUERIES*/
 
-   @media (max-width: 1150px){
-    
+   @media (max-width: 1128px){
+    body{
+      width: 1133px
+
+    }
    }
+
+   @media (max-width: 1098px){
+    body{
+      width: 1127px
+
+    }
+   }
+
+   @media (max-width: 982px){
+    body{
+      width: 1128px
+    }
+   }
+
+
 
    @media (max-width: 1128px){
     header{
@@ -513,6 +531,11 @@ p{
    
    
    @media (max-width: 700px){
+
+    body{
+      width: 700px
+    }
+
     #hero{
       display: none;
     }
@@ -546,8 +569,25 @@ p{
       flex-direction: column;
       gap: 70px;
     }
+  
 
 
+   }
+
+   @media (max-width: 988px){
+    
+    .texto1{
+      display: none;
+    }
+    .boton{
+      display: none;
+    }
+
+    @media (max-width: 932px){
+      .inicio-img{
+        display: block;
+      }
+    }
    }
 
 
